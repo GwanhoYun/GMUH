@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/adminPage.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <div class="header_container">
+            <div class="header_Logo">
+                <a href="index.html">
+                    <img src="img/Logo_white 1.png" alt="Hospital_Logo_image">
+                </a>
+            </div>
+            <div class="login_info">
+                <div class="user_name">
+                    <span>흉부외과</span><!--접속자 담당 과 넣어주세용-->
+                    <span>&nbsp/&nbsp</span>
+                    <span><b>곽두팔</b></span><!--접속자 이름 넣어주세용-->
+                    <span>&nbsp님</span>
+                </div>
+                <div>
+                    <button type="button">로그아웃</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main_container">
+            <div class="chart_list">
+                <h1>차트 리스트</h1>
+                <div class="search_menu">
+                    <div>
+                        <form action="">
+                            <select class="patients_search_option">
+                                <option>검색항목선택</option>
+                                <option value="patients_num" name="">차트번호</option>
+                                <option value="patients_name" name="">환자이름</option>
+                                <option value="medical_subject" name="">진료과</option>
+                                <option value="doctor" name="">담당의사</option>
+                            </select>
+                            <input type="text" class="search_box" placeholder="검색할 정보 입력">
+                            <input class="submit_btn" type="submit" value="검색">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="chart_container">
+                <table>
+                    <tr>
+                        <th style="width: 100px;">차트 번호</th>
+                        <th style="width: 120px;">환자 이름</th>
+                        <th style="width: 50px;">성별</th>
+                        <th style="width: 110px;">생년월일</th>
+                        <th style="width: 100px;">나이</th>
+                        <th style="width: 460px;">병명</th>
+                        <th style="width: 150px;">내원일</th>
+                        <th style="width: 150px;">퇴원일</th>
+                        <th style="width: 180px;">진료과</th>
+                        <th style="width: 130px;">담당의사</th>
+                    </tr>
+                    <tr>
+                        <td><p><a></a></p></td><!--차트 번호-->
+                        <td><p></p></td><!--환자 이름-->
+                        <td><p></p></td><!--성별-->
+                        <td><p></p></td><!--생일-->
+                        <td><p></p></td><!--나이-->
+                        <td><p></p></td><!--병명-->
+                        <td><p></p></td><!--내원일-->
+                        <td><p></p></td><!--퇴원일-->
+                        <td><p></p></td><!--진료과-->
+                        <td><p></p></td><!--담당의사-->
+                    </tr>
+                    <!-- 테스트용 리스트 아래 주석까지 지우시면 됩니다 -->
+                    <tr>
+                        <td>2</td>
+                        <td>식준엄</td>
+                        <td>여</td>
+                        <td>030904</td>
+                        <td>23</td>
+                        <td><p>
+                            Primary central nervous system lymphoma
+                            Primary central nervous system lymphoma
+                            Primary central nervous system lymphoma
+                            Primary central nervous system lymphoma
+                            Primary central nervous system lymphoma</p></td>
+                        <td>2222.12.25</td>
+                        <td>2222.12.25</td>
+                        <td>암센터</td>
+                        <td>허태유</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>식준엄</td>
+                        <td>여</td>
+                        <td>030904</td>
+                        <td>23</td>
+                        <td>Primary central nervous system lymphoma</td>
+                        <td>2222.12.25</td>
+                        <td>2222.12.25</td>
+                        <td>암센터</td>
+                        <td>허태유</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>식준엄</td>
+                        <td>여</td>
+                        <td>030904</td>
+                        <td>23</td>
+                        <td>Primary central nervous system lymphoma</td>
+                        <td>2222.12.25</td>
+                        <td>2222.12.25</td>
+                        <td>암센터</td>
+                        <td>허태유</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>식준엄</td>
+                        <td>여</td>
+                        <td>030904</td>
+                        <td>23</td>
+                        <td>Primary central nervous system lymphoma</td>
+                        <td>2222.12.25</td>
+                        <td>2222.12.25</td>
+                        <td>암센터</td>
+                        <td>허태유</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>식준엄</td>
+                        <td>여</td>
+                        <td>030904</td>
+                        <td>23</td>
+                        <td>Primary central nervous system lymphoma</td>
+                        <td>2222.12.25</td>
+                        <td>2222.12.25</td>
+                        <td>암센터</td>
+                        <td>허태유</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>식준엄</td>
+                        <td>여</td>
+                        <td>030904</td>
+                        <td>23</td>
+                        <td>Primary central nervous system lymphoma</td>
+                        <td>2222.12.25</td>
+                        <td>2222.12.25</td>
+                        <td>암센터</td>
+                        <td>허태유</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>식준엄</td>
+                        <td>여</td>
+                        <td>030904</td>
+                        <td>23</td>
+                        <td>Primary central nervous system lymphoma</td>
+                        <td>2222.12.25</td>
+                        <td>2222.12.25</td>
+                        <td>암센터</td>
+                        <td>허태유</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>식준엄</td>
+                        <td>여</td>
+                        <td>030904</td>
+                        <td>23</td>
+                        <td>Primary central nervous system lymphoma</td>
+                        <td>2222.12.25</td>
+                        <td>2222.12.25</td>
+                        <td>암센터</td>
+                        <td>허태유</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>식준엄</td>
+                        <td>여</td>
+                        <td>030904</td>
+                        <td>23</td>
+                        <td>Primary central nervous system lymphoma</td>
+                        <td>2222.12.25</td>
+                        <td>2222.12.25</td>
+                        <td>암센터</td>
+                        <td>허태유</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>식준엄</td>
+                        <td>여</td>
+                        <td>030904</td>
+                        <td>23</td>
+                        <td>Primary central nervous system lymphoma</td>
+                        <td>2222.12.25</td>
+                        <td>2222.12.25</td>
+                        <td>암센터</td>
+                        <td>허태유</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>식준엄</td>
+                        <td>여</td>
+                        <td>030904</td>
+                        <td>23</td>
+                        <td>Primary central nervous system lymphoma</td>
+                        <td>2222.12.25</td>
+                        <td>2222.12.25</td>
+                        <td>암센터</td>
+                        <td>허태유</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>식준엄</td>
+                        <td>여</td>
+                        <td>030904</td>
+                        <td>23</td>
+                        <td>Primary central nervous system lymphoma</td>
+                        <td>2222.12.25</td>
+                        <td>2222.12.25</td>
+                        <td>암센터</td>
+                        <td>허태유</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>식준엄</td>
+                        <td>여</td>
+                        <td>030904</td>
+                        <td>23</td>
+                        <td>Primary central nervous system lymphoma</td>
+                        <td>2222.12.25</td>
+                        <td>2222.12.25</td>
+                        <td>암센터</td>
+                        <td>허태유</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>식준엄</td>
+                        <td>여</td>
+                        <td>030904</td>
+                        <td>23</td>
+                        <td>Primary central nervous system lymphoma</td>
+                        <td>2222.12.25</td>
+                        <td>2222.12.25</td>
+                        <td>암센터</td>
+                        <td>허태유</td>
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                        <td>식준엄</td>
+                        <td>여</td>
+                        <td>030904</td>
+                        <td>23</td>
+                        <td>Primary central nervous system lymphoma</td>
+                        <td>2222.12.25</td>
+                        <td>2222.12.25</td>
+                        <td>암센터</td>
+                        <td>허태유</td>
+                    </tr>
+                    <tr>
+                        <td>17</td>
+                        <td>식준엄</td>
+                        <td>여</td>
+                        <td>030904</td>
+                        <td>23</td>
+                        <td>Primary central nervous system lymphoma</td>
+                        <td>2222.12.25</td>
+                        <td>2222.12.25</td>
+                        <td>암센터</td>
+                        <td>허태유</td>
+                    </tr>
+                    <tr>
+                        <td>18</td>
+                        <td>식준엄</td>
+                        <td>여</td>
+                        <td>030904</td>
+                        <td>23</td>
+                        <td>Primary central nervous system lymphoma</td>
+                        <td>2222.12.25</td>
+                        <td>2222.12.25</td>
+                        <td>암센터</td>
+                        <td>허태유</td>
+                    </tr>
+                    <tr>
+                        <td>19</td>
+                        <td>식준엄</td>
+                        <td>여</td>
+                        <td>030904</td>
+                        <td>23</td>
+                        <td>Primary central nervous system lymphoma</td>
+                        <td>2222.12.25</td>
+                        <td>2222.12.25</td>
+                        <td>암센터</td>
+                        <td>허태유</td>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td>식준엄</td>
+                        <td>여</td>
+                        <td>030904</td>
+                        <td>23</td>
+                        <td>Primary central nervous system lymphoma</td>
+                        <td>2222.12.25</td>
+                        <td>2222.12.25</td>
+                        <td>암센터</td>
+                        <td>허태유</td>
+                    </tr>   
+                    <!-- 테스트용 리스트 -->
+                </table>
+            </div>
+        </div>
+        <div class="chart_pageNum">
+            <!--차트 넘버 삽입-->
+            <!-- 테스트 -->
+            <a href="#">1</a>
+            <a href="#">1</a>
+            <a href="#">1</a>
+            <a href="#">1</a>
+            <a href="#">1</a>
+            <a href="#">1</a>
+            <a href="#">1</a>
+            <!-- 테스트 -->
+        </div>
+    </main>
+    <nav class="dropdown_side">
+        <div>
+            <p>menu</p>
+        </div>
+        <ul>
+            <li><a href="adminPage.html">차트리스트</a></li>
+            <li><a href="writeChart.html">차트작성</a></li>
+            <li><a href="#">예약현황</a></li>
+            <li><a href="#">스케줄</a></li>
+            <li><a href="#">스케줄수정</a></li>
+            <li><a href="#">외래</a></li>
+            <li><a href="#">메신저</a></li>
+            <li><a href="#">협진요청</a></li>
+            <li><a href="#">승인요청</a></li>
+        </ul>
+    </nav>
+</body>
+<script rel="javascript" type="text/javascript" src="javascript/adminPage.js"></script>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/correctionChart.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header_container">
+            <div class="header_Logo">
+                <a href="index.html">
+                    <img src="img/Logo_white 1.png" alt="Hospital_Logo_image">
+                </a>
+            </div>
+            <div class="login_info">
+                <div class="user_name">
+                    <span>흉부외과</span><!--접속자 담당 과 넣어주세용-->
+                    <span>&nbsp/&nbsp</span>
+                    <span><b>곽두팔</b></span><!--접속자 이름 넣어주세용-->
+                    <span>&nbsp님</span>
+                </div>
+                <div>
+                    <button type="button">로그아웃</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="width">
+        <h1>차트 수정</h1>
+        <div class="chart_container">
+            <div>
+                <p>이름</p>
+            </div>
+            <div>
+                <input type="text" placeholder="환자명입력">
+            </div>
+            <div>
+                <p>성별</p>
+            </div>
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <input type="radio" name="gender" value="" style="width: auto;"><span>남</span>
+                <input type="radio" name="gender" value="" style="width: auto;"><span>여</span>
+            </div>
+            <div>
+                <p>생년월일</p>
+            </div>
+            <div>
+                <input type="date">
+            </div>
+            <div>
+                <p>병명</p>
+            </div>
+            <div>
+                <input type="text">
+            </div>
+            <div>
+                <p>내원일</p>
+            </div>
+            <div>
+                <input type="date">
+            </div>
+            <div>
+                <p>퇴원일</p>
+            </div>
+            <div>
+                <input type="date">
+            </div>
+            <div>
+                <p>상태 및 소견</p>
+            </div>
+            <div class="write_contain">
+                <textarea rows="30"></textarea>
+            </div>
+        </div>
+        <div class="submit_btn">
+            <input type="submit" value="저장">
+            <input type="submit" value="취소">
+        </div>
+    </div>
+</form>
+</main>
+    <nav class="dropdown_side">
+        <div>
+            <p>menu</p>
+        </div>
+        <ul>
+            <li><a href="adminPage.html">차트리스트</a></li>
+            <li><a href="writeChart.html">차트작성</a></li>
+            <li><a href="#">예약현황</a></li>
+            <li><a href="#">스케줄</a></li>
+            <li><a href="#">스케줄수정</a></li>
+            <li><a href="#">외래</a></li>
+            <li><a href="#">메신저</a></li>
+            <li><a href="#">협진요청</a></li>
+            <li><a href="#">승인요청</a></li>
+        </ul>
+    </nav>
+</body>
+<script rel="javascript" type="text/javascript" src="javascript/writeChart.js"></script>
+</html>
